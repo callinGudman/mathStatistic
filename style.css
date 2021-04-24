@@ -1,0 +1,283 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+#main {
+	height: 70vh;
+	background-image: url(images/math3.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	margin-right: 10rem;
+	margin-left: 10rem;
+}
+
+.logo {
+	margin-top: 3rem;
+	width: 10rem;
+}
+
+.header-text {
+	max-width: 35rem;
+	margin-top: 14rem;
+}
+
+.common-btn {
+	padding: 1.8rem 4.0rem;
+	background: transparent;
+	outline: none;
+	border: 0.2rem solid #f67c92;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+	margin-top: 7rem;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+}
+
+.common-btn:hover {
+	background-color: darkred;
+}
+
+#demo {
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 1.4;
+	color: white;
+}
+
+p {
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 1.6rem;
+	line-height: 1.8rem;
+	color: #777;
+}
+
+.header-text button {
+	margin-top: 2.0rem;
+	margin-bottom: 6.0rem;
+}
+
+
+/*---footer---*/
+
+#footer {
+	padding: 5rem 0 3rem;
+}
+
+hr {
+	width: 100%;
+	border: 0;
+	border-top: 0.1rem solid #152e28;
+}
+
+.footer-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer-left-col {
+	flex-basis: 50%;
+	margin-top: 6rem;
+}
+
+.footer-right-col {
+	flex-basis: 35%
+}
+
+.footer-links {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.link-title h4 {
+	color: #152e28;
+	margin-bottom: 2rem;
+}
+
+.link-title small {
+	font-size: 1.3rem;
+	color: black;
+}
+
+.footer-info {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer-logo img {
+	width: 10rem;
+}
+
+.footer-logo button {
+	padding: 1.2rem 3.8rem;
+	margin-top: 2rem;
+	font-size: 1rem;
+}
+
+.copyright-text,
+.footer-logo {
+	flex-basis: 40%;
+	font-size: 2rem;
+}
+
+
+/*---social-icons---*/
+
+.social-icons {
+	width: 5rem;
+	position: fixed;
+	top: 87%;
+	left: 0;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+
+.social-icons img {
+	display: block;
+	width: 2rem;
+	margin: 0 auto 2rem;
+	cursor: pointer;
+}
+
+h1::before {
+	transform: scaleX(0);
+	transform-origin: bottom right;
+}
+
+h1:hover::before {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+h1::before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	inset: 0 0 0 0;
+	background: darkred;
+	z-index: -1;
+	transition: transform .3s ease;
+}
+
+h1 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 2rem;
+	z-index: 1;
+	margin-top: 3rem;
+	color: white;
+}
+
+.kiko {
+	block-size: 100%;
+	inline-size: 100%;
+	min-block-size: 100%;
+	min-inline-size: 100%;
+	margin: 0;
+	box-sizing: border-box;
+	display: grid;
+	place-content: center;
+	font-family: system-ui, sans-serif;
+}
+
+
+/*---media only screen---*/
+
+@media only screen and (max-width:770px) {
+	.kiko h1 {
+		padding-left: 1rem;
+		font-size: 2rem;
+		text-align: center;
+		margin-top: 1rem;
+		width: 365px;
+	}
+	#header {
+		background-image: none;
+	}
+	#main {
+		height: 70vh;
+		background-image: url(images/math3.jpg);
+		background-position: top;
+		background-size: auto;
+	}
+	.container {
+		margin-right: 5rem;
+		margin-left: 5rem;
+	}
+	.logo {
+		margin-top: 2.7rem;
+		width: 7rem;
+	}
+	.header-text {
+		margin-top: 10rem;
+	}
+	.common-btn {
+		padding: 1rem 1.6rem;
+	}
+	.social-icons img {
+		width: 1.4rem;
+		margin: 1.5rem auto;
+	}
+	.about-left-col,
+	.about-right-col {
+		flex-basis: 100%;
+	}
+	.about-text {
+		margin: 5rem 5rem 0;
+		display: inline-block;
+	}
+	.about-text h2 {
+		font-size: 1.8rem;
+	}
+	.feature-col {
+		flex-basis: 100%;
+		margin-bottom: 2rem;
+	}
+	.course-left-col {
+		flex-basis: 100%;
+	}
+	.course-right-col {
+		flex-basis: 100%;
+		margin-top: 7rem;
+	}
+	.contact-left-col,
+	.contact-right-col {
+		flex-basis: 100%;
+	}
+	.contact-right-col {
+		margin-top: 5rem;
+	}
+	.footer-left-col,
+	.footer-right-col {
+		flex-basis: 100%;
+	}
+	.link-title {
+		flex-basis: 50%;
+		margin-bottom: 3rem;
+	}
+}
+
