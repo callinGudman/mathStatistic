@@ -1,9 +1,9 @@
 function colect() {
     var number = new Array();
-    alert("Всяко число се въвежда едно по едно! За край въведете (b)!")
+    alert("Всяко число се въвежда едно по едно! За край въведете (x)!")
     for (i = 0; i < 31; i++) {
         var j = (prompt("Въведете число"));
-        if (j == "b") {
+        if (j == "x" ) {
             break;
         }
 		var z =parseFloat(j);
