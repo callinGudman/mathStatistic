@@ -789,7 +789,7 @@ function colect() {
     var median = function median(numbers) {
         var median = 0,
             numsLen = numbers.length;
-        numbers.sort();
+         numbers.sort(function(a, b){return a-b});
         // четно
         if (numsLen % 2 === 0) {
             // средна стойност от двете
