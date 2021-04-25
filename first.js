@@ -806,7 +806,7 @@ function colect() {
     }
 
     var txt;
-    txt = "Средноквадратично отклонение = " + Math.round(x * 1000) / 1000 + "<br>" + "Мода = " + (modes(number)) + "<br>" + "Медиана = " + (median(number)) + "<br>" + "S2 = " + Math.round(s2 * 1000) / 1000 + "<br>" + "S = " + Math.round(s * 1000) / 1000 + "<br>" + "CV = " + Math.round(cv * 1000) / 1000 + " % " + "<br>" + "Размаха = " + Math.round(razmah * 1000) / 1000 + "<br>" + "X min = " + Math.round(mina * 1000) / 1000 + "<br>" + "X max = " + Math.round(maxa * 1000) / 1000 + "<br>" + "Q1 = " + Math.round(q1 * 1000) / 1000 + "<br>" + "Q2 = " + Math.round(q2 * 1000) / 1000 + "<br>" + "Q3 = " + Math.round(q3 * 1000) / 1000 + "<br>" + "IQR = " + Math.round(IQR * 1000) / 1000 + "<br>";
+    txt = "Средноквадратично отклонение = " + Math.round(x * 1000) / 1000 + "<br>" + "Мода = " + (modes(number)) + "<br>" + "Медиана = " + (median(number)) + "<br>" + "S2 = " + Math.round(s2 * 1000) / 1000 + "<br>" + "S = " + Math.round(s * 1000) / 1000 + "<br>" + "CV = " + Math.round(cv * 1000) / 1000 + " % " + "<br>" + "Размаха = " + Math.round(razmah * 1000) / 1000 + "<br>" + "X min = " + Math.round(mina * 1000) / 1000 + "<br>" + "X max = " + Math.round(maxa * 1000) / 1000 + "<br>" + "Q1 = " + Math.round(q1 * 1000) / 1000 + "<br>" + "Q3 = " + Math.round(q3 * 1000) / 1000 + "<br>" + "IQR = " + Math.round(IQR * 1000) / 1000 + "<br>";
 
     document.getElementById("demo").innerHTML = txt;
 }
