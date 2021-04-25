@@ -10,6 +10,22 @@
 html {
 	font-size: 62.5%;
 }
+#legend{
+	position:fixed;
+	left:10rem;
+	top:8rem;
+	color:white;
+	font-size:1.6rem;
+	
+}
+
+
+#legendTitle{
+	position:fixed;
+	left:13rem;
+	top:3.5rem;
+	color:pink;
+}
 
 #main {
 	height: 70vh;
@@ -219,7 +235,7 @@ h1 {
 		background-image: none;
 	}
 	#main {
-		height: 80vh;
+		height: 130vh;
 		background-image: url(images/math3.jpg);
 		background-position: top;
 		background-size: auto;
@@ -279,5 +295,24 @@ h1 {
 		flex-basis: 50%;
 		margin-bottom: 3rem;
 	}
+	
+#legend{
+	position:absolute;
+	left:53%;
+	top:80%;
+	color:white;
+	font-size:1.6rem;
+	transform: translateX(-50%);
+	
+}
+
+
+#legendTitle{
+	position:absolute;
+	left:50%;
+	transform: translateX(-50%);
+	top:70%;
+	color:pink;
+}
 }
 
