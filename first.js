@@ -346,6 +346,7 @@ function colect() {
     }
 
     /*---Q2---*/
+/*
     var k2 = (0.50 * sums);
     var t = k2.toString();
     var patt = /\-?\d+\.\d+/;
@@ -549,6 +550,7 @@ function colect() {
                 "Error"
         }
     }
+*/
 
     /*---Q3---*/
     var k3 = (0.75 * sums);
