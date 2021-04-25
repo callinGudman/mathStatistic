@@ -7,7 +7,7 @@ function colect() {
             break;
         }
         number[i] = j;
-        number.sort();
+        number.sort(function(a, b){return a-b});
     }
 
     for (var k in number);
