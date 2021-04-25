@@ -1,14 +1,16 @@
 function colect() {
     var number = new Array();
-    alert("Всяко число се въвежда едно по едно! За край въведете нула(0)!")
+    alert("Всяко число се въвежда едно по едно! За край въведете (b)!")
     for (i = 0; i < 31; i++) {
-        var j = parseFloat(prompt("Въведете число"));
-        if (j == 0) {
+        var j = (prompt("Въведете число"));
+        if (j == "b") {
             break;
         }
-        number[i] = j;
-        number.sort(function(a, b){return a-b});
+		var z =parseFloat(j);
+        number[i] = z;
+       number.sort(function(a, b){return a-b});
     }
+
 
     for (var k in number);
 
