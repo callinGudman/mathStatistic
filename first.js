@@ -121,7 +121,7 @@ function colect() {
     if (sums === 30) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x) + (number[21] - x) * (number[21] - x) + (number[22] - x) * (number[22] - x) + (number[23] - x) * (number[23] - x) + (number[24] - x) * (number[24] - x) + (number[25] - x) * (number[25] - x) + (number[26] - x) * (number[26] - x) + (number[27] - x) * (number[27] - x) + (number[28] - x) * (number[28] - x) + (number[29] - x) * (number[29] - x)) / sums)
     };
-console.log(sums);
+
     /*---S---*/
     var s = Math.sqrt(s2);
 
