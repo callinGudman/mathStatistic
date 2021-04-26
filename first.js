@@ -33,92 +33,92 @@ function colect() {
 	var s2;
     if (sums === 1) {
          s2 = (((number[0] - x) * (number[0] - x)) / sums)
-    };
-    if (sums === 2) {
+    }
+    else if (sums === 2) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x)) / sums)
-    };
-    if (sums === 3) {
+    }
+    else if (sums === 3) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x)) / sums)
-    };
-    if (sums === 4) {
+    }
+    else if (sums === 4) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x)) / sums)
-    };
-    if (sums === 5) {
+    }
+    else if (sums === 5) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x)+ (number[4] - x) * (number[4] - x)) / sums)
-    };
-    if (sums === 6) {
+    }
+    else if (sums === 6) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x)+ (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x)) / sums)
-    };
-    if (sums === 7) {
+    }
+    else if (sums === 7) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x)) / sums)
-    };
-    if (sums === 8) {
+    }
+    else if (sums === 8) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x)) / sums)
-    };
-    if (sums === 9) {
+    }
+    else if (sums === 9) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x)) / sums)
-    };
-    if (sums === 10) {
+    }
+    else if (sums === 10) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x)) / sums)
-    };
-    if (sums === 11) {
+    }
+    else if (sums === 11) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x)) / sums)
-    };
-    if (sums === 12) {
+    }
+    else if (sums === 12) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x)) / sums)
-    };
-    if (sums === 13) {
+    }
+    else if (sums === 13) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x)) / sums)
-    };
-    if (sums === 14) {
+    }
+    else if (sums === 14) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x)) / sums)
-    };
-    if (sums === 15) {
+    }
+    else if(sums === 15) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x)) / sums)
-    };
-    if (sums === 16) {
+    }
+    else if (sums === 16) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x)) / sums)
-    };
-    if (sums === 17) {
+    }
+    else if (sums === 17) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x)) / sums)
-    };
-    if (sums === 18) {
+    }
+    else if (sums === 18) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x)) / sums)
-    };
-    if (sums === 19) {
+    }
+    else if (sums === 19) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x)) / sums)
-    };
-    if (sums === 20) {
+    }
+    else if (sums === 20) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x)) / sums)
-    };
-    if (sums === 21) {
+    }
+    else if (sums === 21) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x)) / sums)
-    };
-    if (sums === 22) {
+    }
+    else if (sums === 22) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x) + (number[21] - x) * (number[21] - x)) / sums)
-    };
-    if (sums === 23) {
+    }
+    else if (sums === 23) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x) + (number[21] - x) * (number[21] - x) + (number[22] - x) * (number[22] - x)) / sums)
-    };
-    if (sums === 24) {
+    }
+    else if (sums === 24) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x) + (number[21] - x) * (number[21] - x) + (number[22] - x) * (number[22] - x) + (number[23] - x) * (number[23] - x)) / sums)
-    };
-    if (sums === 25) {
+    }
+    else if (sums === 25) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x) + (number[21] - x) * (number[21] - x) + (number[22] - x) * (number[22] - x) + (number[23] - x) * (number[23] - x) + (number[24] - x) * (number[24] - x)) / sums)
-    };
-    if (sums === 26) {
+    }
+    else if (sums === 26) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x) + (number[21] - x) * (number[21] - x) + (number[22] - x) * (number[22] - x) + (number[23] - x) * (number[23] - x) + (number[24] - x) * (number[24] - x) + (number[25] - x) * (number[25] - x)) / sums)
-    };
-    if (sums === 27) {
+    }
+    else if (sums === 27) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x) + (number[21] - x) * (number[21] - x) + (number[22] - x) * (number[22] - x) + (number[23] - x) * (number[23] - x) + (number[24] - x) * (number[24] - x) + (number[25] - x) * (number[25] - x) + (number[26] - x) * (number[26] - x)) / sums)
-    };
-    if (sums === 28) {
+    }
+    else if (sums === 28) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x) + (number[21] - x) * (number[21] - x) + (number[22] - x) * (number[22] - x) + (number[23] - x) * (number[23] - x) + (number[24] - x) * (number[24] - x) + (number[25] - x) * (number[25] - x) + (number[26] - x) * (number[26] - x) + (number[27] - x) * (number[27] - x)) / sums)
-    };
-    if (sums === 29) {
+    }
+    else if (sums === 29) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x) + (number[21] - x) * (number[21] - x) + (number[22] - x) * (number[22] - x) + (number[23] - x) * (number[23] - x) + (number[24] - x) * (number[24] - x) + (number[25] - x) * (number[25] - x) + (number[26] - x) * (number[26] - x) + (number[27] - x) * (number[27] - x) + (number[28] - x) * (number[28] - x)) / sums)
-    };
-    if (sums === 30) {
+    }
+    else if (sums === 30) {
          s2 = (((number[0] - x) * (number[0] - x) + (number[1] - x) * (number[1] - x) + (number[2] - x) * (number[2] - x) + (number[3] - x) * (number[3] - x) + (number[4] - x) * (number[4] - x) + (number[5] - x) * (number[5] - x) + (number[6] - x) * (number[6] - x) + (number[7] - x) * (number[7] - x) + (number[8] - x) * (number[8] - x) + (number[9] - x) * (number[9] - x) + (number[10] - x) * (number[10] - x) + (number[11] - x) * (number[11] - x) + (number[12] - x) * (number[12] - x) + (number[13] - x) * (number[13] - x) + (number[14] - x) * (number[14] - x) + (number[15] - x) * (number[15] - x) + (number[16] - x) * (number[16] - x) + (number[17] - x) * (number[17] - x) + (number[18] - x) * (number[18] - x) + (number[19] - x) * (number[19] - x) + (number[20] - x) * (number[20] - x) + (number[21] - x) * (number[21] - x) + (number[22] - x) * (number[22] - x) + (number[23] - x) * (number[23] - x) + (number[24] - x) * (number[24] - x) + (number[25] - x) * (number[25] - x) + (number[26] - x) * (number[26] - x) + (number[27] - x) * (number[27] - x) + (number[28] - x) * (number[28] - x) + (number[29] - x) * (number[29] - x)) / sums)
     };
 
