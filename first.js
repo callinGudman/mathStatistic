@@ -1,39 +1,70 @@
 "use strict";
+let number;
+let sum;
+let sums;
+let x;
+let s2;
+let s;
+let cv;
+let maxa;
+let mina;
+let razmah;
+let k1 ;
+let t  ;
+let patt  ;
+let q1;
+let k2;
+let q2;
+let k3;
+let q3;
+let IQR;
+let modes;
+let count;
+let maxIndex;
+let number3;
+let txt;
+let median;
+let numsLen;
+let i;
+let j;
+let z;
+let k;
+
 function colect() {
-    var number = new Array();
+    number = new Array();
     alert("Всяко число се въвежда едно по едно! За край въведете (x)!");
-    let i;
+
     for (i = 0; i < 31; i++) {
-        var j = (prompt("Въведете число"));
+         j = (prompt("Въведете число"));
         if (j === "x") {
             break;
         }
-		var z =parseFloat(j);
+		 z =parseFloat(j);
         number[i] = z;
        number.sort(function(a, b){return a-b});
     }
-	
 
 
-    for (var k in number);
+
+    for ( k in number);
 
     function getSum(total, num) {
         return total + (num);
     }
 
-    var sum = parseFloat((number.reduce(getSum)));
+    sum = parseFloat((number.reduce(getSum)));
 
     function getSums(total, num) {
         return total + (num);
     }
 
-    var sums = (number.length);
+    sums = (number.length);
 	
 	/*---Средноквадратично отклонение---*/
-    var x = (sum / sums);
+     x = (sum / sums);
 
     /*--- S2---*/
-	var s2;
+
     if (sums === 1) {
          s2 = (((number[0] - x) * (number[0] - x)) / sums)
     }
@@ -126,31 +157,31 @@ function colect() {
     };
 
     /*---S---*/
-    var s = Math.sqrt(s2);
+     s = Math.sqrt(s2);
 
     /*---CV---*/
-    var cv = ((s / x) * 100);
+     cv = ((s / x) * 100);
 
     /*---Xmax--*/
-    var maxa = Math.max.apply(Math, number);
+     maxa = Math.max.apply(Math, number);
 
     /*---Xmin--*/
-    var mina = Math.min.apply(Math, number);
+     mina = Math.min.apply(Math, number);
 
     /*---Размах--*/
-    var razmah = (maxa - mina);
+     razmah = (maxa - mina);
 
     /*---Квартили---*/
 
     /*---Q1---*/
-    var k1 = (0.25 * sums)
-    var t = k1.toString()
-    var patt = /\-?\d+\.\d+/;
-	var q1;
+     k1 = (0.25 * sums)
+     t = k1.toString()
+     patt = /\-?\d+\.\d+/;
+
 
     /*---Не е Цяло Число---*/
     if (t.match(patt)) {
-        var k1 = Math.floor(k1);
+         k1 = Math.floor(k1);
         
         switch (k1) {
             case 0:
@@ -349,10 +380,10 @@ function colect() {
     }
 
     /*---Q2---*/
-    var k2 = (0.50 * sums);
-    var t = k2.toString();
-    var patt = /\-?\d+\.\d+/;
-	var q2;
+     k2 = (0.50 * sums);
+     t = k2.toString();
+     patt = /\-?\d+\.\d+/;
+
 
     /*---Не е Цяло Число---*/
 
@@ -554,15 +585,15 @@ function colect() {
     }
 
     /*---Q3---*/
-    var k3 = (0.75 * sums);
-    var t = k3.toString();
-    var patt = /\-?\d+\.\d+/;
-	var q3;
+    k3 = (0.75 * sums);
+     t = k3.toString();
+     patt = /\-?\d+\.\d+/;
+	 q3;
 
     /*---Не е Цяло Число---*/
 
     if (t.match(patt)) {
-        var k3 = Math.floor(k3);
+         k3 = Math.floor(k3);
         switch (k3) {
             case 0:
                 q3 = number[0];
@@ -762,12 +793,12 @@ function colect() {
     }
     /*---IQR---*/
 
-    var IQR = q3 - q1;
+    IQR = q3 - q1;
 
     /*---Мода---*/
 
-    var modes = function mode(numbers) {
-        var modes = [],
+     modes = function mode(numbers) {
+         modes = [],
 
             count = [],
             i, number3, maxIndex = 0;
@@ -792,8 +823,8 @@ function colect() {
 
     /*---Медиана---*/
 
-    var median = function median(numbers) {
-        var median = 0,
+     median = function medians(numbers) {
+        median = 0,
             numsLen = numbers.length;
         numbers.sort(function(a, b){return a-b});
         // четно
@@ -809,7 +840,7 @@ function colect() {
         return median;
     }
 
-    var txt;
+
     txt = "V = "+number.join(', ')+"<br>"+"Xe = " + Math.round(x * 1000) / 1000 + "<br>" + "Mo = " + (modes(number)).join(', ') + "<br>" + "Me = " + (median(number)) + "<br>" + "S2 = " + Math.round(s2 * 1000) / 1000 + "<br>" + "S = " + Math.round(s * 1000) / 1000 + "<br>" + "CV = " + Math.round(cv * 1000) / 1000 + " % " + "<br>" + "R = " + Math.round(razmah * 1000) / 1000 + "<br>" + "X min = " + Math.round(mina * 1000) / 1000 + "<br>" + "X max = " + Math.round(maxa * 1000) / 1000 + "<br>" + "Q1 = " + Math.round(q1 * 1000) / 1000 + "<br>" + "Q3 = " + Math.round(q3 * 1000) / 1000 + "<br>" + "IQR = " + Math.round(IQR * 1000) / 1000 + "<br>";
 
     document.getElementById("demo").innerHTML = txt;
