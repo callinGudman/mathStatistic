@@ -1,3 +1,4 @@
+
 "use strict";
 let number;
 let sum;
@@ -56,31 +57,15 @@ function colect() {
     x = (sum / sums);
 
     /*--- S2---*/
-    function standardDeviation(values){
-        let avg = average(values);
-
-        let squareDiffs = values.map(function(value){
-            let diff = value - avg;
-            let sqrDiff = diff * diff;
-            return sqrDiff;
-        });
-
-        let avgSquareDiff = average(squareDiffs);//0.25
-
-        let stdDev = (avgSquareDiff);
-        return stdDev;//0.25
-    }
-
-    function average(data){
-       let gey = data.reduce(function(sum, value){
-            return sum + value;
-        }, 0);
-
-        let avg = gey / data.length;
-        return avg;
-
-    }
-    s2= standardDeviation(number);
+    function standardDeviation(values) {
+            let pip = 0;
+            for (let i = 0; i < values.length; i++) {
+                pip = pip + (values[i] - x) ** 2
+            }
+            
+            return pip / number.length;
+        }
+        s2= standardDeviation(number);
 
     /*---S---*/
     s = Math.sqrt(s2);
