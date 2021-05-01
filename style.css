@@ -299,7 +299,7 @@ h1 {
 #legend{
 	position:absolute;
 	left:53%;
-	top:80%;
+	top:83%;
 	color:white;
 	font-size:1.6rem;
 	transform: translateX(-50%);
@@ -311,7 +311,7 @@ h1 {
 	position:absolute;
 	left:50%;
 	transform: translateX(-50%);
-	top:74%;
+	top:77%;
 	color:pink;
 }
 }
